@@ -1,0 +1,21 @@
+{
+    "name": "coccoto/cocomone",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cocoto",
+            "email": "marilun.lune@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "coccoto/dotrouter": "*",
+        "coccoto/crud": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/",
+            "app\\": "app/"
+        }
+    }
+}
