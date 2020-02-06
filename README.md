@@ -18,4 +18,5 @@ $ composer create-project coccoto/cocomone {ProjectName}
 ```
 
 ## License
+
 MIT License
