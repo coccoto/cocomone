@@ -2,7 +2,7 @@
 
 $map = [
     '/' => [
-        'controller' => 'Index',
-        'method' => 'index'
+        'controller' => 'IndexController',
+        'method' => 'indexMethod'
     ],
 ];
