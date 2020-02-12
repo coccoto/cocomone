@@ -30,7 +30,7 @@ final class HTML {
 
         foreach ($this->script as $files) {
             foreach ($files as $path) {
-                echo "<script defer src='/$path'></script>";
+                echo "<script src='/$path' defer></script>";
             }
         }
     }
