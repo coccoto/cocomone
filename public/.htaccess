@@ -1,11 +1,5 @@
+DirectoryIndex index.php
 RewriteEngine on
-
-RewriteCond %{REQUEST_URI} !\.html$
-RewriteCond %{REQUEST_URI} !\.css$
-RewriteCond %{REQUEST_URI} !\.js$
-RewriteCond %{REQUEST_URI} !\.ico$
-RewriteCond %{REQUEST_URI} !\.png$
-RewriteCond %{REQUEST_URI} !\.svg$
-RewriteCond %{REQUEST_URI} !\.mp3$
-
-RewriteRule .* index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php [L]
