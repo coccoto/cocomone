@@ -14,7 +14,7 @@ It is a simple framework consisting of only basic parts and supports MVC design.
 ## Installation
 
 ```sh
-$ composer create-project coccoto/cocomone {ProjectName}
+$ composer create-project coccoto/cocomone {projectName}
 ```
 
 ## License
