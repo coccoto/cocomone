@@ -7,7 +7,7 @@ require_once Root . 'vendor/autoload.php';
 require_once Root . 'conf/development.php';
 require_once Root . 'conf/map.php';
 
-// coccoto\crud\CRUD::push($connInfo);
+// coccoto\dotcrud\CRUD::push($connInfo);
 
 $namespace = 'app\\controllers\\';
 

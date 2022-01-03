@@ -9,7 +9,7 @@ It is a simple framework consisting of only basic parts and supports MVC design.
 ## Features
 
 - [Create a routing (coccoto/dotrouter)](https://github.com/coccoto/dotrouter)
-- [Supports database operations (coccoto/crud)](https://github.com/coccoto/crud)
+- [Supports database operations (coccoto/dotcrud)](https://github.com/coccoto/dotcrud)
 
 ## Installation
 

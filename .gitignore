@@ -1,4 +1,23 @@
-/vendor/
-/composer.lock
+#
+# log files
+#
+logs/
+*.log
 
+#
+# dotenv files
+#
+#.env
+
+#
+# PHP files
+#
+vendor/
+composer.lock
 /conf/database.php
+
+#
+# OS generated files
+#
+.DS_Store
+Thumbs.db

@@ -4,13 +4,13 @@
     "authors": [
         {
             "name": "cocoto",
-            "email": "marilun.lune@gmail.com"
+            "email": "soprano.lune@gmail.com"
         }
     ],
     "require": {
         "php": "^7.4",
         "coccoto/dotrouter": "*",
-        "coccoto/crud": "*"
+        "coccoto/dotcrud": "*"
     },
     "autoload": {
         "psr-4": {
