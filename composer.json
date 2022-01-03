@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.4",
         "coccoto/dotrouter": "*",
-        "coccoto/dotcrud": "*"
+        "coccoto/selectdb": "*"
     },
     "autoload": {
         "psr-4": {

@@ -2,7 +2,7 @@
 
 namespace app\models\data;
 
-use coccoto\dotcrud\CRUD;
+use coccoto\selectdb\CRUD;
 
 final class IndexData extends CRUD {
 
